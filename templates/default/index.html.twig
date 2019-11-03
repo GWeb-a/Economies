@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="main-block">
+        <div class="login-block">
+            <h1>Mon Compte</h1>
+
+            {{ form(form) }}
+
+            <p class="no-account">
+                Pas encore de compte ? <a href="#">Inscris-toi !</a>
+            </p>
+        </div>
+    </div>
+{% endblock %}
